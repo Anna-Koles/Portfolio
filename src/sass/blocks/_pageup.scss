@@ -1,0 +1,20 @@
+.pageup {
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    svg {
+        width: 100%;
+        path {
+            fill: $main-color;
+        }
+    }
+    &:hover {
+        svg path {
+            fill: $second-color;
+            transition: 0.3s; 
+            }
+    }
+}
